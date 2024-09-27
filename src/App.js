@@ -15,7 +15,7 @@ const App = () => {
         {/* Navigation bar will be shown on all pages */}
         <Navbar />
 
-        {/* Routes to define different paths and the corresponding components */}
+        {}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
