@@ -1,3 +1,10 @@
+/* 
+  File Name: COMP229_SeungwonKang.css
+  Student's Name: Seungwon Kang
+  StudentID: 301055219
+  Date: September 28, 2024
+*/
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 
