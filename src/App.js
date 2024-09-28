@@ -6,7 +6,7 @@ import Projects from './pages/Projects';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
-import './styles.css'; // Assuming you have created this for styling
+import './styles.css'; 
 
 const App = () => {
   return (

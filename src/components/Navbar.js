@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        {/* Your custom logo */}
+        {/* My custom logo */}
         <svg height="50" width="50">
           <polygon points="25,0 50,50 0,50" style={{ fill: 'lightblue' }} />
           <text x="14" y="35" fill="black">SK</text>

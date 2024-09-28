@@ -137,59 +137,112 @@ body {
     margin-bottom: 10px;
   }
   
-  /* Services Page */
-  .services {
-    padding: 50px;
+ /* service */
+ .services-container {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .services-header {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  .services-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .service-item {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .service-item img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+  }
+  
+  .service-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .service-item p {
+    font-size: 1.1em;
+    color: #555;
+  }
+
+  
+   /* contact */
+  /* 부모 컨테이너가 모든 요소를 중앙에 배치 */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 뷰포트 전체 높이를 차지하여 중앙에 배치 */
+    padding: 20px;
     text-align: center;
   }
   
-  .services ul {
-    list-style: none;
-    padding: 0;
+  .contact-header {
+    font-size: 2.5em;
+    margin-bottom: 20px;
   }
   
-  .services ul li {
-    font-size: 18px;
-    margin: 10px 0;
+  .contact-panel {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-bottom: 30px;
   }
   
-  /* Contact Page */
-  .contact {
-    padding: 50px;
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
+  .contact-panel p {
+    margin: 5px 0;
+    font-size: 1.1em;
   }
   
-  .contact form {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 15px;
+  /* 폼 스타일링 */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
   }
   
-  .contact input, .contact textarea {
-    padding: 10px;
-    font-size: 16px;
+  .contact-form div {
+    margin-bottom: 15px;
+  }
+  
+  .contact-form label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
     width: 100%;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
   }
   
-  .contact textarea {
-    height: 100px;
-  }
-  
-  .contact button {
-    padding: 10px;
-    font-size: 16px;
-    background-color: #333;
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
     color: white;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
   }
   
-  .contact button:hover {
-    background-color: #555;
+  .contact-form button:hover {
+    background-color: #45a049;
   }
   
   /* Footer style */
@@ -203,3 +256,5 @@ body {
     width: 100%;
   }
   
+ 
+ 
