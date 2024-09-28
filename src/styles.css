@@ -128,7 +128,7 @@ body {
   
   .projects img {
     max-width: 100%;
-    height: auto;
+    height: 300px;
     margin-bottom: 15px;
   }
   
@@ -161,8 +161,8 @@ body {
   }
   
   .service-item img {
-    width: 100px;
-    height: 100px;
+    width: 400px;
+    height: 380px;
     margin-bottom: 15px;
   }
   
