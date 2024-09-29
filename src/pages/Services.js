@@ -8,17 +8,17 @@ const Services = () => {
         <div className="service-item">
           <img src="hotelBooking.jpg" alt="Hotel Booking Service" />
           <h3>Hotel Booking Service</h3>
-          <p>Developing seamless hotel booking systems with real-time availability and user-friendly interfaces.</p>
+          <p>This project focuses on creating a seamless, user-friendly hotel booking platform. It allows users to search for hotels, check room availability, make reservations, and manage bookings. Key features include real-time updates and responsive design for various devices.</p>
         </div>
         <div className="service-item">
           <img src="onlineShopping.jpg" alt="Online Shopping Mall" />
           <h3>Online Shopping Mall</h3>
-          <p>Building robust e-commerce platforms that offer smooth shopping experiences and secure transactions.</p>
+          <p>The online shopping mall is an e-commerce platform where users can browse products, add items to a cart, and make purchases. It incorporates user authentication, product filtering, and secure transactions with an intuitive, scalable design.</p>
         </div>
         <div className="service-item">
           <img src="socialMedia.jpg" alt="Social Media Website" />
           <h3>Social Media Website</h3>
-          <p>Creating interactive social media platforms for users to connect, share, and engage with multimedia content.</p>
+          <p>A social media platform that lets users create profiles, share multimedia content (photos and videos), follow others, and engage with posts through comments and likes. The platform supports real-time notifications and an interactive news feed, fostering user engagement and social interaction.</p>
         </div>
       </div>
     </div>
