@@ -19,11 +19,11 @@ const Navbar = () => {
         </svg>
       </div>
       <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About Me</Link></li>
-        <li><Link to="/projects">Projects</Link></li>
-        <li><Link to="/services">Services</Link></li>
-        <li><Link to="/contact">Contact Me</Link></li>
+        <li><Link to="/COMP229_301055219_LabAssignment1/">Home</Link></li>
+        <li><Link to="/COMP229_301055219_LabAssignment1/about">About Me</Link></li>
+        <li><Link to="/COMP229_301055219_LabAssignment1/projects">Projects</Link></li>
+        <li><Link to="/COMP229_301055219_LabAssignment1/services">Services</Link></li>
+        <li><Link to="/COMP229_301055219_LabAssignment1/contact">Contact Me</Link></li>
       </ul>
     </nav>
   );

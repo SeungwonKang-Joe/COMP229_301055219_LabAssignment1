@@ -17,11 +17,11 @@ const App = () => {
 
         {/* Routes to define different paths and the corresponding components */}
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/COMP229_301055219_LabAssignment1/" element={<Home />} />
+          <Route path="/COMP229_301055219_LabAssignment1/about" element={<About />} />
+          <Route path="/COMP229_301055219_LabAssignment1/projects" element={<Projects />} />
+          <Route path="/COMP229_301055219_LabAssignment1/services" element={<Services />} />
+          <Route path="/COMP229_301055219_LabAssignment1/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
