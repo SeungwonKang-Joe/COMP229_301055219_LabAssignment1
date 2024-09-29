@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="about">
       <h1>About Me</h1>
-      <img src="./me.jpg"  alt="Seungwon Kang" />
+      <img src="me.jpg"  alt="Seungwon Kang" />
       <p>My name is Seungwon Kang, and I am an aspiring web developer with a strong interest in creating modern,
          responsive, and user-friendly websites. Currently,
          I am working on expanding my skills in both front-end and back-end development,
